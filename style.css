@@ -106,44 +106,41 @@ footer .link {
     top: 50px;
 }
 
-@media (min-width:768px) and (max-width:1439px) {
+@media (min-width:1020px) and (max-width:1439px) {
+
+    .container {
+        width: 70%;
+        margin: auto;
+    }
 
     h1 {
-        font-size: 5rem;
-    }
-
-    .hero-body {
-        width: 70%;
-        margin-bottom: 5rem;
-    }
-
-    .hero-section {
-        margin: 10rem 0;
-    }
-
-    .Avatar3 {
-        left: 7px;
-        top: 95px;
-    }
-
-    .Avatar5 {
-        left: 362px;
-        top: 187px;
-    }
-
-    .Avatar2 {
-        left: 468px;
-        top: 29px;
+        font-size: 6rem;
     }
 
     .Avatar1 {
-        left: 517px;
-        top: 272px;
+        left: 625px;
+        top: 278px;
+    }
+
+    .Avatar3 {
+        left: -100px;
+        top: 98px;
+    }
+
+    .Avatar5 {
+        left: 482px;
+        top: 72px;
+    }
+
+
+    .Avatar2 {
+        left: 661px;
+        top: 28px;
     }
 
     .Avatar4 {
-        left: 367px;
-        top: 569px;
+        left: 480px;
+        top: 508px;
     }
 
 }
@@ -185,8 +182,85 @@ footer .link {
     }
 }
 
-@media (max-width:768px) {
-    body {
+@media (max-width:1019px) {
+    .container {
+        width: 70%;
+        margin: auto;
+    }
+
+    .hero-body {
+        width: 60%;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .Avatar1 {
+        left: 510px;
+        top: 238px;
+    }
+
+    .Avatar3 {
+        left: -100px;
+        top: 98px;
+    }
+
+    .Avatar5 {
+        left: 316px;
+        top: 75px;
+    }
+
+
+    .Avatar2 {
+        left: 477px;
+        top: 31px;
+    }
+
+    .Avatar4 {
+        left: 345px;
+        top: 429px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .hero-body {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .hero-section {
+        margin-top: 8rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .Avatar1 {
+        display: none;
+    }
+
+    .Avatar3 {
+        left: 25px;
+        top: 137px;
+    }
+
+    .Avatar5 {
+        display: none;
+    }
+
+    .Avatar2 {
+        left: 223px;
+        top: 87px;
+    }
+
+    .Avatar4 {
         display: none;
     }
 }
